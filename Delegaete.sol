@@ -3,7 +3,6 @@ pragma solidity ^0.8.4;
 
 
 
-// target contract C
 contract C {
     uint public num;
     address public sender;
@@ -14,7 +13,6 @@ contract C {
     }
 }
 
-// contract B which uses both call and delegatecall to call contract C
 contract B {
     uint public num;
     address public sender;
